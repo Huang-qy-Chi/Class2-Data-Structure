@@ -1,9 +1,9 @@
 rm(list = ls())
 
 library(readxl)
-?read_xlsx
-dat <- readxl::read_xlsx("C:/Users/lenovo/Desktop/example-2/beijing.xlsx")
-#这里填写自己的路径
+
+dat <- readxl::read_xlsx("C:/Users/lenovo/Desktop/example-2/beijing.xlsx")#这里填写自己的路径
+
 library(dplyr)
 
 head(dat)   #展示数据表头以及前六行
